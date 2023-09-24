@@ -3,7 +3,7 @@ document.getElementById("guessBtn").onclick = () => {
   let y = parseInt(document.getElementById("input").value);
   if (x === y) {
     document.getElementById("result").innerHTML = "Your Guess is Correct...";
-  } else if (x - y === 1 || y - x === 1 || y+1 === x) {
+  } else if (x - y === 2 || y - x === 2) {
     document.getElementById("result").innerHTML =
       "Your Guess is So Close, Try Again";
   } else {
