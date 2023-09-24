@@ -1,5 +1,4 @@
 let x = Math.floor(Math.random() * 20) + 1;
-console.log(x, "x");
 document.getElementById("guessBtn").onclick = () => {
   let y = parseInt(document.getElementById("input").value);
   if (x === y) {
